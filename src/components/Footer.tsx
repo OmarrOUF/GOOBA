@@ -135,6 +135,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
               >
                 <Instagram className="w-4 h-4" />
               </a>
+             
               <button
                 onClick={scrollToTop}
                 className="p-2.5 bg-[#EAEAE4]/10 hover:bg-[#8C2545] text-[#EAEAE4] transition-colors rounded-xs ml-auto"
