@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gooba-deep-burgundy: #3D0617;
+  --color-gooba-crimson: #8C2545;
+  --color-gooba-charcoal: #292929;
+  --color-gooba-mineral: #2C6350;
+  --color-gooba-ivory: #EAEAE4;
+
+  --font-wordmark: "Century Gothic", "CenturyGothic", "Montserrat", "Futura", system-ui, sans-serif;
+  --font-display: "Century Gothic", "CenturyGothic", "Montserrat", "Futura", system-ui, sans-serif;
+  --font-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --font-mono: "Space Mono", monospace;
+  --font-serif: "Playfair Display", Georgia, serif;
+}
+
+@layer base {
+  body {
+    background-color: #EAEAE4;
+    color: #292929;
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Editorial line and vertical text utilities */
+.writing-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.editorial-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(41, 41, 41, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(41, 41, 41, 0.04) 1px, transparent 1px);
+}
+
+.editorial-grid-dark {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(234, 234, 228, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(234, 234, 228, 0.05) 1px, transparent 1px);
+}

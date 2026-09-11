@@ -1,0 +1,6 @@
+{
+  "name": "GOOBA Software House",
+  "description": "Digital infrastructure for organizations that are ready to scale. High-end software systems, enterprise architecture, and bespoke operational platforms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
