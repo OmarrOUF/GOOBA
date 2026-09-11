@@ -1,23 +1,3 @@
-# GOOBA Software House — Digital Flagship Website
-
-The official digital flagship web application for **GOOBA (Software House)**, engineered with React 19, Vite, and Tailwind CSS v4.
-
----
-
-## 🏛️ Editorial Architecture & Design Adaptation
-
-This flagship adapts the editorial asymmetry, disciplined negative space, and architectural tension from classical editorial layouts, reimagined for elite software engineering:
-
-1. **The Asymmetric Hero Swap:**
-   - The GOOBA 3D Faceted Gemstone artifact (`/GEM.png`) is positioned on the **LEFT** as the primary sculptural focal point, complete with interactive 3D perspective tilt and burgundy glow caustics.
-   - The **RIGHT** balances with stark, geometric Century Gothic typography, sub-millisecond telemetry status, and asymmetric whitespace.
-2. **Editorial Framework:**
-   - 1px hairline architectural boundaries (`#292929`/20 and `#8C2545`).
-   - Fixed right-margin metadata with vertical coordinates (`29.9792° N, 31.1342° E`), system versioning (`SYS.V2`), and vertical interactive triggers.
-   - Bottom editorial tickers (`COPYRIGHT © 2024–2026 GOOBA INC.` • `SYSTEMS • ARCHITECTURE • AUTOMATION • AI ENGINES`).
-
----
-
 ## 🎨 GOOBA Brand Token System (Tailwind CSS v4)
 
 Configured directly inside `@theme` in `src/index.css`:
