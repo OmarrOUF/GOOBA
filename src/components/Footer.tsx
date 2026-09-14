@@ -109,7 +109,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
                 <Smile className="w-4 h-4" />
               </a>
               <a
-                href="https://www.linkedin.com/company/gooba"
+                href="https://www.linkedin.com/company/goobasoftware"
                 target="_blank"
                 rel="noreferrer"
                 className="p-2.5 bg-[#EAEAE4]/10 hover:bg-[#8C2545] text-[#EAEAE4] transition-colors rounded-xs"
